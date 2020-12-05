@@ -1,2 +1,2 @@
 # anacondas
-Repository for the AA Team Assignment of Team 1
+Team assignment of team "anacondas" as part of the Advanced Analytics course at university of cologne. Examined cities: Bonn, Essen
