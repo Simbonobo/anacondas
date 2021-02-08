@@ -29,6 +29,7 @@ or install the libmop library as suggested in the error message:
 
     brew install libomp
 
+    
 ## Notebook discriptions
 
 ### Preprocessing
@@ -45,3 +46,4 @@ In this notebook the preprocessed data sets are applied to identify different ty
 
 ### Model
 In this notebook the preprocessed data sets are used to predict the daily rental demand with the help of regression analyses.
+
