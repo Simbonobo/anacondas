@@ -21,7 +21,7 @@ Afterwards use pip to install all packages stated in our requirement.txt:
     pip install -r requirements.txt
 
 
-XGboost somtimes runs into problems with mscOS. If you run into these problems install xgboost with conda 
+XGboost somtimes runs into problems with macOS. If you run into these problems install xgboost with conda 
 
     conda install -c conda-forge xgboost
 
@@ -30,7 +30,7 @@ or install the libmop library as suggested in the error message:
     brew install libomp
 
     
-## Notebook discriptions
+## Notebook descriptions
 
 ### Preprocessing
 In this notebook the data sets is generated, loaded from the given '.csv' files and using nextbike's API. Afterwards the data sets are formatted, cleaned and saved to  '.pickle' files.
@@ -45,5 +45,5 @@ In this notebook the preprocessed data sets are applied to create five different
 In this notebook the preprocessed data sets are applied to identify different types of customer groups, clustered by trip duration and trip distance depending on the time of day.
 
 ### Model
-In this notebook the preprocessed data sets are used to predict the daily rental demand with the help of regression analyses.
+In this notebook the preprocessed data sets (cities and weather) are used to predict the daily rental demand with the help of predictive analyses.
 
