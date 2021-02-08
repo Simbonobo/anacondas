@@ -28,3 +28,20 @@ XGboost somtimes runs into problems with mscOS. If you run into these problems i
 or install the libmop library as suggested in the error message:
 
     brew install libomp
+    
+## Notebook discriptions
+
+### Preprocessing
+In this notebook the data sets is generated, loaded from the given '.csv' files and using nextbike's API. Afterwards the data sets are formatted, cleaned and saved to  '.pickle' files.
+
+### Weather
+In this notebook the weather data for Bonn and Essen is loaded from german weather service website. Afterwards the data is formatted, cleaned, missing values are added and saved to '.pickle' files. Furthermore weather data correlations are calculated at the end of the notebook.
+
+### KPI
+In this notebook the preprocessed data sets are applied to create five different key performance indicators to develop a detailed understanding for nexbikes business.
+
+### Clustering
+In this notebook the preprocessed data sets are applied to identify different types of customer groups, clustered by trip duration and trip distance depending on the time of day.
+
+### Model
+In this notebook the preprocessed data sets are used to predict the daily rental demand with the help of regression analyses.
