@@ -10,7 +10,7 @@ As we notices some issues with changing package versions, please set up environm
 
 Create a conda environment with the packages noted in our environment.yaml:
 
-    conda create --name  [your_environment] --file environment.yaml
+    conda create --name [your_environment] --file environment.yaml
 
 Activate your newly created environment:
 
