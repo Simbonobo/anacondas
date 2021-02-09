@@ -1,5 +1,5 @@
 # anacondas
-Team assignment of team "anacondas" as part of the Advanced Analytics course at university of cologne. Examined cities: Bonn, Essen
+Team assignment of team "anacondas" as part of the Analytics and Applications course at university of cologne. Examined cities: Bonn, Essen
 
 ![Anacondas](https://miro.medium.com/max/1000/1*h1h6j08kIHv3ywN3MCfKLg.jpeg)
 
@@ -10,7 +10,7 @@ As we notices some issues with changing package versions, please set up environm
 
 Create a conda environment with the packages noted in our environment.yaml:
 
-    create --name  [your_environment] --file environment.yaml
+    conda create --name  [your_environment] --file environment.yaml
 
 Activate your newly created environment:
 
